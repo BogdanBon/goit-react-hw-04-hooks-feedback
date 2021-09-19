@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  width: 140px;
+  height: 80px;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to right, #70e1f5, #ffd194);
+}
+
+.item:first-child {
+  margin-right: 20px;
+}
+
+.item > span:first-child {
+  margin-bottom: 10px;
+}

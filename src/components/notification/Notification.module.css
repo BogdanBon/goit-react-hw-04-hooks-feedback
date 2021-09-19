@@ -1,0 +1,14 @@
+.item {
+  animation: color 5s linear infinite;
+}
+@keyframes color {
+  0% {
+    color: rgba(34, 34, 34, 1);
+  }
+  20% {
+    color: rgba(34, 34, 34, 0.2);
+  }
+  100% {
+    color: rgba(34, 34, 34, 1);
+  }
+}
